@@ -7,6 +7,6 @@ def calculate_discount(original_price, discount_percentage):
         final_amount = original_price - (original_price * (discount_percentage / 100))
         print(f"Pay {final_amount} for the item, you have a {discount_percentage}% discount." ) 
     else:
-        print(f"Pay {original_price} for the item. No discount applied")
+        print(f"Pay {original_price} for the item. No discount applied!")
 
 calculate_discount(original_price, discount_percentage)
